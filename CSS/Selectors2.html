@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors 2</title>
+    <style>
+     /* #main > p{
+            background-color: blueviolet;
+        }
+      #main + p{
+            background-color: maroon;
+        }
+        #main ~ p{
+            background-color:rgb(153, 0, 255);
+        }
+        a:link{
+            text-decoration: chocolate;
+            font-size: 20px;
+        }
+        a:hover{
+            color: aquamarine;
+            font-size : 30px;
+        }
+        a:active{
+            color: black;
+        }
+      a:visited{
+            color: brown;
+        }*/
+        #main .odd{
+            background-color: rgb(152, 185, 33);
+        }
+        #main p:nth-child(even){
+            color:brown;
+        }
+        #main p::first-letter{
+            color: chartreuse;
+        }
+        #main p::first-line{
+            background-color: bisque;
+        }
+        #main p::before{
+            content: "Read More";
+            color: red;
+            font-size:40px;
+        }
+        #main p::after{
+            content: "end";
+            color: red;
+            font-size:40px;
+        }
+    </style>
+</head>
+<body>
+    <!--css combination-->
+    <div id="main"><!--div-1st-->
+        <p class="odd">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, velit odit, unde excepturi blanditiis enim similique ad voluptas adipisci facilis, ipsam error reprehenderit expedita. Veritatis, ut ex. Quas, voluptatem vel.
+        </p>
+        <p>
+            mayank 01
+        </p>
+        <p class="odd">
+            hello 02
+        </p>
+        <p>
+            hello 03
+        </p>
+        <div id="inside">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, velit odit, unde excepturi blanditiis enim similique ad voluptas adipisci facilis, ipsam error reprehenderit expedita. Veritatis, ut ex. Quas, voluptatem vel.
+            </p>
+        </div>
+        <p>
+            mastsh 
+        </p>
+        <p>
+            jhdcwcgy
+        </p>
+    </div><!--div 1st end-->
+    <P>
+        ndacajd jadkdcacd dackadbcjndj mayank 
+    </P>
+    <a href="">visit my page</a>
+    <p>
+        Lorem ipsum dol r sit amet consectetur adipisicing elit. Ab perferendis alias dicta aspernatur, eum fugit! Vel rem blanditiis vitae neque velit perferendis repellat quis eum ea architecto. Tempora, laboriosam corrupti.
+    </p>
+    
+</body>
+</html>
