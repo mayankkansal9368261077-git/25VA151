@@ -1,0 +1,28 @@
+body
+{
+    background-color: aqua;
+}
+p
+{
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-weight: 50px;
+    font-style: italic;
+    text-decoration:underline;
+    text-align:justify;
+    text-transform:lowercase;
+    text-shadow: 10px 10px 10px violet;
+    color: blue;
+    border:double red;
+    display:block;
+}
+#para{
+    color: black;
+}
+img{
+    border: 2px solid red;
+    border-radius:50%;
+    float:left;
+    margin-right: 20px;
+    padding: 3px;
+}
