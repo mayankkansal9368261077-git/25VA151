@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID MODEL</title>
+    <style>
+        html{
+            margin: auto;
+        }
+        body{
+            margin: auto;
+            width:220px;
+        }
+        main{
+            display:grid;
+            grid-template-rows:50px 50px 200px 50px;
+            gap:10px;
+        }
+        .box{
+            background-color: blueviolet;
+        }
+        #b3{
+            display:grid;
+            grid-template-columns:50px 100px 50px;
+            gap:10px;
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">Header</div>
+        <div class="box">Navigation menu</div>
+        <div class="box" id="b3">
+            <div class="box">Content</div>
+            <div class="box">Main Content</div>
+            <div class="box">Content</div>
+        </div>
+        <div class="box">Footer</div>
+    </main>
+</body>
+</html>

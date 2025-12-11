@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment - Flexbox Student Profile Card</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f9f9f9;
+        }
+        h1{
+            text-align: center;
+        }
+        .body{
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 20px; 
+            flex-wrap: wrap; 
+        }
+        .stu{
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 4px 4px 4px black;
+            width: 200px;
+            text-align: center;
+            padding: 20px;
+        }
+        .logo{
+            width: 70px;
+            height: 70px;
+            background: blue; 
+            color: white;
+            border-radius: 50%;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            font-size: 20px; 
+            margin: auto;
+        }
+        .name{
+            font-weight: bold; 
+            font-size: 20px; 
+        }
+        .detail{
+            font-size: 15px; 
+            color: silver; 
+            margin: auto; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Profile Cards</h1>
+    <div class="body">
+        <div class="stu">
+            <div class="logo">PR</div>
+            <div class="name">Priyanshu Rathod</div>
+            <div class="detail">B.Tech - CSEDS-2</div>
+            <div class="detail">1st Year</div>
+        </div>
+        <div class="stu">
+            <div class="logo">PB</div>
+            <div class="name">Praduman Bhardwaj</div>
+            <div class="detail">B.Tech - CSEDS-2</div>
+            <div class="detail">1st Year</div>
+        </div>
+        <div class="stu">
+            <div class="logo">PM</div>
+            <div class="name">Pravin Mishra</div>
+            <div class="detail">B.Tech - CSEDS-2</div>
+            <div class="detail">1st Year</div>
+        </div>
+    </div>
+</body>
+</html>
